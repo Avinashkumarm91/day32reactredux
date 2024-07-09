@@ -23,14 +23,6 @@ const Cart=()=>{
     dispatch(removeProduct(productId));
    };
   
-  //  const getTotalPrice=()=>{
-  //   let totalPrice=0;
-  //   cart.forEach((item)=>{
-  //     totalPrice+=item.price * item.quantity;
-  //   });
-  //   return totalPrice;
-  //  };
-
   const [price, setPrice] = useState(0);
    const handlePrice = () => {
     let ans = 0;
